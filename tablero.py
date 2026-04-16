@@ -2,12 +2,13 @@ import streamlit as st
 from streamlit_drawable_canvas import st_canvas
 
 st.title("Tablerito de ideas!!")
+st. subheader("Plasma tus pensamientos con dibujos en el tablerito")
 
 with st.sidebar:
     st. subheader("Propiedades del Tablero")
     
     # Canvas dimensions (moved to the top)
-    st. subheader ("Dimensiones del Tablero")
+    st. subheader ("Dimensiones")
     canvas_width = st.slider("Ancho del tablero", 300, 700, 500, 50)
     canvas_height = st.slider("Alto del tablero", 200, 600, 300, 50)
     
