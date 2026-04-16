@@ -4,27 +4,27 @@ from streamlit_drawable_canvas import st_canvas
 st.title("Tablerito de ideas!!")
 
 with st.sidebar:
-st. subheader("Propiedades del Tablero")
-
-# Canvas dimensions (moved to the top)
-st. subheader ("Dimensiones del Tablero")
-canvas_width • st.slider("Ancho del tablero", 300, 700, 500, 50)
-canvas _height = st.slider("Alto del tablero", 200, 600, 300, 50)
-
-# Drawing mode selector
-drawing mode = st.selectbox
-    "Herramienta de Dibujo:",
-    ("freedraw", "line", "rect", "circle", "transform", "polygon", "point"),
-)
-
-# Stroke width slider
-stroke_width = st.slider('Selecciona el ancho de línea', 1, 30, 15)
-
-# Stroke color picker
-stroke_color = st.color_picker("Color de trazo", "#FFFFFF")
-
-# Background color
-bg_color = st.color picker("Color de fondo", "#000000")
+    st. subheader("Propiedades del Tablero")
+    
+    # Canvas dimensions (moved to the top)
+    st. subheader ("Dimensiones del Tablero")
+    canvas_width • st.slider("Ancho del tablero", 300, 700, 500, 50)
+    canvas _height = st.slider("Alto del tablero", 200, 600, 300, 50)
+    
+    # Drawing mode selector
+    drawing mode = st.selectbox
+        "Herramienta de Dibujo:",
+        ("freedraw", "line", "rect", "circle", "transform", "polygon", "point"),
+    )
+    
+    # Stroke width slider
+    stroke_width = st.slider('Selecciona el ancho de línea', 1, 30, 15)
+    
+    # Stroke color picker
+    stroke_color = st.color_picker("Color de trazo", "#FFFFFF")
+    
+    # Background color
+    bg_color = st.color picker("Color de fondo", "#000000")
 
 # Create a canvas component with dynamic key
 canvas_result = st_canvas(
