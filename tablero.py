@@ -12,7 +12,7 @@ with st.sidebar:
     canvas _height = st.slider("Alto del tablero", 200, 600, 300, 50)
     
     # Drawing mode selector
-    drawing mode = st.selectbox
+    drawing mode = st.selectbox(
         "Herramienta de Dibujo:",
         ("freedraw", "line", "rect", "circle", "transform", "polygon", "point"),
     )
