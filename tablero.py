@@ -8,7 +8,7 @@ with st.sidebar:
     
     # Canvas dimensions (moved to the top)
     st. subheader ("Dimensiones del Tablero")
-    canvas_width • st.slider("Ancho del tablero", 300, 700, 500, 50)
+    canvas_width = st.slider("Ancho del tablero", 300, 700, 500, 50)
     canvas _height = st.slider("Alto del tablero", 200, 600, 300, 50)
     
     # Drawing mode selector
