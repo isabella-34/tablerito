@@ -1,2 +1,2 @@
 streamlit
-streanlit_drawable_canvas
+streanlit-drawable-canvas
