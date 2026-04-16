@@ -1,0 +1,2 @@
+streamlit
+streanlit_drawable_canvas
