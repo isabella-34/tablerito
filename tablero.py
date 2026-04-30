@@ -1,8 +1,8 @@
 import streamlit as st 
 from streamlit_drawable_canvas import st_canvas
 
-st.title("Tablerito de ideas!! 🎨 ✧˚ ༘ ⋆｡˚👩🏻‍🎨")
-st. subheader("Plasma tus pensamientos con dibujos en el tablerito")
+st.title("Tablerito de ideas!! 🎨 ✧˚ ༘ ⋆｡˚")
+st. subheader("Plasma tus pensamientos con dibujos en el tablerito 👩🏻‍🎨")
 
 with st.sidebar:
     st. subheader("Propiedades del Tablero")
